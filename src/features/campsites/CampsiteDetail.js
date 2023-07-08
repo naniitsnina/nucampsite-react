@@ -1,13 +1,9 @@
 import { Card, CardImg, CardText, CardBody, Col } from 'reactstrap';
 
 const CampsiteDetail = ({ campsite }) => {
-    if (!campsite || !campsite.image) {
-        // Handle the case where 'campsite' or 'campsite.image' is undefined
-        return null;
-    }
-    const { image, name, description } = campsite;
+        const { image, name, description } = campsite;
     return (
-        <Col md='12' className='m-4'>
+        <Col md='5' className='m-1'>
             <Card>
                 <CardImg top src={image} alt={name}/>
                 <CardBody>
