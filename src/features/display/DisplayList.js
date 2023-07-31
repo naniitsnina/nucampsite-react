@@ -13,7 +13,7 @@ const DisplayList = () => {
         selectFeaturedPartner(state)
     ]);
 
-    console.log('disaplay items: ', items)
+    console.log('display items: ', items)
 
     return(
         <Row>
